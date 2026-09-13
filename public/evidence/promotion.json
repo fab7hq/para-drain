@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "product_objects": 17,
+  "scenes": 1,
+  "max_vertex_error_m": 4.966049238497305e-10,
+  "motion_keyframes": "match shared source",
+  "shared_basket_mesh": true,
+  "version": "0.1.0",
+  "markings": {
+    "count": 2,
+    "text": "PARADRAIN UPSTREAM",
+    "centered_on_solid_handle": true
+  },
+  "canonical_model": "public/model/paradrain.blend",
+  "normal_project_file": true,
+  "private_home_strings_absent": true,
+  "workspaces": 1,
+  "no_linked_libraries": true,
+  "no_embedded_scripts": true,
+  "canonical_model_sha256": "4d090b1acf46ad26829ee90e84e8d1593495b914aeab6ee31dc7ef631d7a17b2",
+  "geometry_source_sha256": "1d696292fbe161a35288def297026d80a0aafd90261d71dbeb79840ea119ed60",
+  "builder_sha256": "d94f3189e535b563b8cafb5f3e31e7b547c0da1aca2bb6e07c6e4beb5767d5fb",
+  "verifier_sha256": "1731b57f1f5b14ead108e364caa8032fb4f5ce0629d100c65d66ebea71b4070f"
+}

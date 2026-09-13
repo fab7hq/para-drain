@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#e8e9e1" />
+  <meta name="description" content="Explore ParaDrain, a twin-basket drain filter: interchangeable debris baskets, controlled transfer, and a contained lift-out cleaning sequence." />
+  <title>ParaDrain — Twin-basket drain filter</title>
+  <link rel="canonical" href="https://paradrain.getfab7.com/" />
+  <meta property="og:title" content="ParaDrain — Twin-basket drain filter" />
+  <meta property="og:description" content="Two identical baskets. A contained cleaning cycle. Explore ParaDrain and its removable debris-basket cleaning cycle." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://paradrain.getfab7.com/" />
+  <meta property="og:image" content="https://paradrain.getfab7.com/media/demo.png" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="ParaDrain home"><span class="brand-mark" aria-hidden="true">Ⅱ</span> PARADRAIN<span class="brand-sub">TWO LAYERS. ONE CYCLE.</span></a>
+    <nav aria-label="Resources"><a href="./technical.html">Technical guide <span aria-hidden="true">↗</span></a><a href="./model/paradrain.json" download>Model data <span aria-hidden="true">↓</span></a><span class="release">FINAL 0.1</span></nav>
+  </header>
+  <main>
+    <section class="demo-layout" aria-label="Interactive product demonstration">
+      <aside class="story">
+        <p class="eyebrow"><span class="status-dot"></span> ROADSIDE DRAINAGE / DESIGN STUDY</p>
+        <h1>Catch the litter.<br><em>Keep the drain<br> moving.</em></h1>
+        <p class="intro">Two interchangeable baskets. One collects the litter while the other is ready to take its place.</p>
+        <button class="primary" id="start">Watch the cleaning cycle <span aria-hidden="true">↗</span></button>
+        <div class="story-rule"></div>
+        <div class="chapter-number"><span id="chapter-number">01</span><span>/ 06</span></div>
+        <h2 id="phase-title">Rain meets street litter</h2>
+        <p id="phase-detail">Runoff carries leaves and packaging into the outer basket. The second basket waits behind it.</p>
+        <p class="small-note">A rendered operating scenario. Water and litter motion illustrate the sequence; physical performance remains to be tested.</p>
+      </aside>
+      <div class="viewer-shell">
+        <div class="viewer-top"><span><span class="live-dot"></span> LIVE 3D</span><span id="view-label">ROADSIDE CHANNEL</span></div>
+        <div id="viewport" role="img" aria-label="Interactive 3D drain filter in a wet roadside drainage channel; drag to orbit and scroll to zoom">
+          <div id="loading">Preparing the roadside scene…</div>
+          <div id="fallback" hidden><img src="./media/secured-for-lift.png" alt="Drain-filter basket with its front retainer secured" /><p>The interactive scene could not load. Use a WebGL 2 browser, or read the <a href="./technical.html">technical guide</a>.</p></div>
+        </div>
+        <div class="viewer-tools" aria-label="View settings">
+          <button id="site" aria-pressed="true">In context</button><button id="closeup" aria-pressed="false">Product detail</button>
+          <span class="tool-divider"></span><button id="cutaway" aria-pressed="false">Cutaway</button><button id="rain" aria-pressed="true">Rain on</button>
+        </div>
+        <div class="orbit-hint">DRAG TO ORBIT <span>·</span> SCROLL TO ZOOM</div>
+      </div>
+    </section>
+    <section class="transport" aria-label="Demonstration playback">
+      <div class="playback"><button id="play" aria-label="Play demonstration">▶</button><button id="restart" aria-label="Restart demonstration">↺</button><label class="sr-only" for="timeline">Demonstration timeline</label><input id="timeline" type="range" min="0" max="34" step="0.05" value="0" /><output id="time">00:00 / 00:34</output></div>
+      <div id="chapters" class="chapters" aria-label="Jump to a stage"></div>
+    </section>
+    <section class="principles" aria-label="Product features">
+      <article><span>01 / COLLECTION</span><h3>Bring the litter with it.</h3><p>A drained floor, side walls, slotted top and secured front retainer form the removable collection basket.</p></article>
+      <article><span>02 / CONTINUITY</span><h3>A backup already in place.</h3><p>The inner basket moves forward along shared guides. A linked manual pusher contacts both sides together.</p></article>
+      <article><span>03 / REUSE</span><h3>Same basket. Next position.</h3><p>Empty it over the bin, return it to the rear and dock it. Both units share the same geometry and upstream orientation.</p></article>
+    </section>
+  </main>
+  <footer><span>PARADRAIN · FINAL 0.1</span><span>Made with <a href="https://getfab7.com">Fab7 / RingFrame</a></span><span>OPEN DESIGN / <a href="./LICENSE">APACHE 2.0</a> · <a href="./THIRD_PARTY_NOTICES.txt">CREDITS</a></span></footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

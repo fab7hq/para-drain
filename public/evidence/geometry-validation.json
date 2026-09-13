@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "version": "0.1.0",
+  "data_sha256": "1d696292fbe161a35288def297026d80a0aafd90261d71dbeb79840ea119ed60",
+  "objects": 17,
+  "motion_intervals": 41,
+  "continuous_component_pairs": 313696,
+  "checks": [
+    "Shared baskets and final 0.1 envelope",
+    "18 mm screen, floor, roof and retainer gaps",
+    "Positive keeper obstruction",
+    "Non-overlapping component shells",
+    "Continuous product-motion clearance",
+    "Modeled mass matches product dataset"
+  ],
+  "mass_kg": 4.638590145866654,
+  "scope": "Product geometry only; tapered guides use conservative bounding solids. Site, fluids, litter dynamics and loads are not qualified."
+}

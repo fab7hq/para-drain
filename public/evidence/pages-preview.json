@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "version": "0.1.0",
+  "scope": "Local Cloudflare Pages runtime only; not a remote deployment",
+  "scene": {
+    "time": 0,
+    "playing": false,
+    "phase": "Collect",
+    "version": "0.1.0",
+    "actors": 17,
+    "markings": [
+      "PARADRAIN UPSTREAM",
+      "PARADRAIN UPSTREAM"
+    ],
+    "cutaway": false,
+    "rain": true,
+    "view": "site",
+    "webgl": true
+  },
+  "technical_assets": "PASS",
+  "missing_page_status": 404,
+  "uncaught_errors": [],
+  "viewports": [
+    "1440 x 1000 desktop",
+    "390 x 844 mobile"
+  ],
+  "footer_only_credit": "PASS",
+  "apache_license_download": "matches repository LICENSE",
+  "removed_story_status": 404,
+  "only_final_version": "0.1",
+  "removed_history_status": 404
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "version": "0.1.0",
+  "scope": "Local ParaDrain product, documentation and production-browser readiness; website deployment is separate",
+  "browser_tests": {
+    "status": "PASS",
+    "count": 8,
+    "viewports": [
+      "1440 x 1000 desktop",
+      "390 x 844 mobile"
+    ],
+    "production_bundle": "main-DuFFLo8T.js",
+    "production_bundle_sha256": "726ffb8d3070c9d6c8fdaed59e25869bdf1e2fb34f9d606b28e844c2537d5176",
+    "checks": [
+      "ParaDrain title and brand, version 0.1.0, both actual renderer markings",
+      "17 WebGL product actors, no external runtime requests or startup errors",
+      "Playback, seeking, chapter selection and restart",
+      "Product detail, cutaway and rain controls",
+      "Technical guide, footer-only attribution and downloads",
+      "No horizontal overflow at either viewport",
+      "Static fallback when model assets are unavailable",
+      "Only final product version 0.1 is presented; version history is not served"
+    ]
+  },
+  "unit_tests": {
+    "status": "PASS",
+    "count": 6
+  },
+  "geometry_validation": "evidence/geometry-validation.json",
+  "saved_blender_verification": "evidence/promotion.json",
+  "cloudflare_pages_preview": "evidence/pages-preview.json",
+  "visual_review": [
+    "Blender render: exact marking centered on both solid grips",
+    "Desktop and mobile rendered website"
+  ],
+  "license": "Apache-2.0",
+  "publication": "Prepared for Cloudflare Pages at paradrain.getfab7.com; not deployed",
+  "license_verification": "Full Apache 2.0 text in repository LICENSE and matching website download"
+}
